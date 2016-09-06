@@ -5,13 +5,14 @@
         "appName" => "phpSteroid",
         "version" => "0.0.1",
         "domain" => "phpsteroid.com",
-        "cache_enabled" => true,
+        "cache_enabled" => false,
+        "handlebars_enabled" => true,
         "path" => array(
             "app" => "app/",
             "cache" => "caches/",
             "core" => "core/",
             "session" => "app/sessions", //no trailing forwardslash for session
-            "basePath" => "/", //no trailing forwardslash
+            "basePath" => "/glusterfs/www/html/phpsteroid.com",
             "index" => "index.php"
         ),
         "defaults" => array(
@@ -20,10 +21,10 @@
         ),
         "routes" => array(),
         "database" => array(
-            "host" => "",
-            "username" => "",
-            "password" => "",
-            "name" => ""
+            "host" => "10.128.4.80",
+            "username" => "phpsteroid",
+            "password" => "tKzFv8KSs6Cmv32F",
+            "name" => "phpsteroid"
         )
     );
     date_default_timezone_set("America/Chicago");
