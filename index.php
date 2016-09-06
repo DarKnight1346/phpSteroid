@@ -21,10 +21,10 @@
         ),
         "routes" => array(),
         "database" => array(
-            "host" => "10.128.4.80",
-            "username" => "phpsteroid",
-            "password" => "tKzFv8KSs6Cmv32F",
-            "name" => "phpsteroid"
+            "host" => "localhost",
+            "username" => "",
+            "password" => "",
+            "name" => ""
         )
     );
     date_default_timezone_set("America/Chicago");
