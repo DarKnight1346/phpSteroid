@@ -7,6 +7,7 @@
         "domain" => "phpsteroid.com",
         "cache_enabled" => false,
         "handlebars_enabled" => true,
+        "handlebars_browser_handled" => true,
         "path" => array(
             "app" => "app/",
             "cache" => "caches/",
@@ -21,10 +22,10 @@
         ),
         "routes" => array(),
         "database" => array(
-            "host" => "localhost",
-            "username" => "",
-            "password" => "",
-            "name" => ""
+            "host" => "10.128.4.80",
+            "username" => "phpsteroid",
+            "password" => "tKzFv8KSs6Cmv32F",
+            "name" => "phpsteroid"
         )
     );
     date_default_timezone_set("America/Chicago");
